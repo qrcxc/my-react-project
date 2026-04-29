@@ -1,0 +1,39 @@
+.bet-result {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background-color: #f0fdf4; /* Світло-зелений фон для успіху */
+  border: 1px solid #bbf7d0;
+  animation: fadeIn 0.4s ease-out; /* Анімація з ТЗ */
+}
+
+.placeholder {
+  background-color: #f9fafb;
+  border: 1px dashed #d1d5db;
+  text-align: center;
+  color: #6b7280;
+}
+
+.result-card h3 {
+  margin-bottom: 1rem;
+  color: #166534;
+}
+
+.result-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.win-text {
+  font-size: 1.5rem;
+  color: #15803d;
+}
+
+.profit-text {
+  color: #4338ca;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

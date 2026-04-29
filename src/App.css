@@ -1,0 +1,18 @@
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.main-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Дві колонки на десктопі */
+  gap: 2rem;
+}
+
+/* Адаптивність: одна колонка на екранах менше 768px */
+@media (max-width: 768px) {
+  .main-layout {
+    grid-template-columns: 1fr;
+  }
+}
